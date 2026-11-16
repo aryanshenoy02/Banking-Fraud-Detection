@@ -15,7 +15,6 @@ An anomaly detection system that analyses personal PhonePe transaction history u
   - `Amount`
   - `Credit/debit instrument`
 - The CSV should retain the original PhonePe export structure, including the first three metadata rows, which are skipped during loading.
-- The uploaded file must be named `AryanTransactions.csv` unless the filename in the notebook is changed.
 
 **Privacy:** The notebook processes transaction history containing potentially sensitive financial information. Do not upload personal transaction data to a public repository.
 
@@ -37,9 +36,8 @@ An anomaly detection system that analyses personal PhonePe transaction history u
 
 1. Open `notebooks/isolation-forest.ipynb` in Google Colab.
 2. Upload your PhonePe transaction CSV when prompted.
-3. Ensure the uploaded filename matches `AryanTransactions.csv`.
-4. Run all notebook cells.
-5. Inspect the flagged transactions and their anomaly scores.
+3. Run all notebook cells.
+4. Inspect the flagged transactions and their anomaly scores.
 
 ## Important Notes
 
